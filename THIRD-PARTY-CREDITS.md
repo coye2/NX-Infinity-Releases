@@ -24,6 +24,17 @@ NX Infinity builds on community-made software. **All original projects, contribu
 | shaderc, SPIR-V, glslang | versioned original shaderc license records | various original licenses; retained in core stage | [source](https://github.com/google/shaderc) | Google, Khronos and listed upstream copyright holders |
 | NX API and integration contributions | 1.0.0-beta.1 candidate | MIT for original API; GPL for Eden/Citron native combined workers | [source](https://github.com/coye2/NX-Infinity-Releases) | NX API contributors; keep copyright notices from all upstream works |
 
+## Explicit original-author acknowledgments
+
+- **gdkchan** — original creator of Ryujinx. Kenji-NX's own project history identifies Ryujinx as originally created by gdkchan.
+- **GreemDev, KeatonTheBot, and historical Ryujinx fork maintainers** — acknowledged in Kenji-NX's public project history for fork lineage and contributions.
+- **Alex Barney** — original LibHac copyright holder; retain its bundled ISC and BSD notices for hactool/XTSSharp.
+- **ppy Pty Ltd** — copyright holder recorded for SDL3-CS managed bindings.
+- **Eden Emulator Project, Citron Neo Project, yuzu Emulator Project, Citra Emulator Project** — retain every per-file copyright line; the list of named projects is not a replacement for full per-file author notices.
+- **Citron native dependencies outside the selected list:** Boost 1.87.0, OpenSSL 3.4.1, the IANA timezone database, and the LLVM-MinGW/UCRT runtime are specifically referenced in the exact Citron staging script; credit their original authors and retain their actual source and license notices as appropriate.
+
+Sources: [Kenji-NX upstream project history](https://github.com/Kenji-NX), [Citron source tree](https://github.com/citron-neo/emulator), [Eden source tree](https://github.com/eden-emulator/mirror), and the original license files distributed alongside the workers.
+
 ## Frontend resolved package inventory
 
 Source: the private candidate's `apps/NxInfinity/dependencies.json`, with 27 packages, locked for the frontend. **This is the full restore graph, not a statement that each row ships in the Windows ZIP**; build-only and non-Windows packages must not be mislabeled as distributed binaries. The authoritative packaged-file index is separate. Keep the actual original license/notice texts with each distributed applicable component.
