@@ -9,6 +9,7 @@ The candidate release is **1.0.0-beta.1**. Its recorded scope covers launch meta
 Only the MIT-licensed NX API is intended for the standalone source export here. This public repository contains no emulator implementation source or private development history. Third-party runtime notices and corresponding-source requirements must be resolved before publishing the Windows binary.
 
 - [Upstream credits and component attributions](THIRD-PARTY-CREDITS.md)
+- [Third-party notices and current redistribution requirements](THIRD-PARTY-NOTICES.md)
 - [Linux and Proton](LINUX.md)
 - [Latest release](https://github.com/coye2/NX-Infinity-Releases/releases/latest)
 
